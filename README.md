@@ -1,9 +1,7 @@
 # Getting Started with Serilog and WebAPI
-<<<<<<< HEAD
-[Serilog Docs](https://serilog.net/)
-=======
 
->>>>>>> b2e9475416bc131a6928f3b6275a928249cab989
+- [Serilog Docs](https://serilog.net/)
+
 - From serilog documentation first find out the [serilog documentation for AspnetCore](https://github.com/serilog/serilog-aspnetcore#serilogaspnetcore---) because that one is needed for WebApi.
 - Install the *Serilog.AspNetCore* package with following cmd or from nuget package manager:
 	```bash
@@ -28,5 +26,5 @@
 	    return forcasts;
 	}
 	```
->The `@` operator in front of `forc` tells Serilog to serialize the object passed in, rather than convert it using `ToString()`.
+>TheÂ `@`Â operator in front ofÂ `forc`Â tells Serilog to serialize the object passed in, rather than convert it usingÂ `ToString()`.
 
